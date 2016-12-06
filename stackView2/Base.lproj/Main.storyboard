@@ -96,22 +96,23 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="P4u-E5-e5v">
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="240" verticalCompressionResistancePriority="760" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="P4u-E5-e5v">
                                         <rect key="frame" x="0.0" y="471" width="335" height="111"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMd-6V-Nlg">
-                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="111"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="50.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.67450982329999998" blue="0.22352942819999999" alpha="1" colorSpace="deviceRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <state key="normal" title="Buy"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLp-RT-Yp5">
-                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="111"/>
+                                                <rect key="frame" x="0.0" y="60.5" width="335" height="50.5"/>
                                                 <color key="backgroundColor" red="1" green="0.19222333280000001" blue="0.18530608579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <state key="normal" title="Like"/>
                                             </button>
                                         </subviews>
+                                        <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
